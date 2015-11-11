@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spieler anlegen</title>
+
+
+    <link rel="stylesheet" type="text/css" href="home.css">
+
+
+</head>
+
+<body>
+
+<form action="http://martinakraus.net/createPlayer.php" method="get">
+
+
+    <div class="headLine">
+
+        <h1>Spieler anlegen</h1>
+
+    </div>
+
+    <div class="firstColumn">
+
+<p> Name            <input type="text" id="name" name="name"></form></p>
+<p> Vorname         <input type="text" id="vorname" name="vorname"></form></p>
+<p> Verein          <input type="text" id="verein" name="verein"></form></p>
+<p> Coach           <input type="text" id="hcoach" name="hcoach"></form></p>
+<p> Assistant Coach <input type="text" id="acoach" name="acoach"></form></p>
+
+<p> Trikotnummer    <input type="number" id="number" name="number"></form></p>
+<p> Jahrgang        <input type="number" id="jahr" name="jahr"></form></p>
+
+
+Position<br>
+<select name="position" size="1">
+<option value="center">Center</option>
+    <option value="guard">Guard</option>
+    <option value="power forward">Power Forward</option>
+    <option value="wing" selected="selected">Wing</option>
+    <option value="small forward" >Small Forward</option>
+</select></br>
+
+<div class="checkboxLeft">
+    Aktiv <p> <input type="checkbox" id="ja" name="ja">Ja
+    <input type="checkbox" id="nein" name="nein" checked="checked">Nein </p>
+</div>
+
+</div>
+
+
+<div class="secondColumn">
+    <p> Favorit markieren<input type="checkbox" id="favorit" name="favorit"></form></p>
+</div>
+
+<div>
+    <p> <input class="lastline" type="submit" value="Absenden"></p>
+</div>
+
+</form>
+</body>
+</html>
