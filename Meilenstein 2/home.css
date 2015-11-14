@@ -19,10 +19,15 @@ html {
 
 .secondColumn {
     position:absolute;
-    left: 450px;
-    width: 100px;
+    left: 350px;
+    width: 180px;
 }
 
+.fourthColumn{
+    position:absolute;
+    left: 600px;
+    width: 180px;
+}
 .firstColumn {
     font-size: 16px;
     width: 260px;
@@ -30,6 +35,12 @@ html {
     margin: 2em;
     top: 125px;
     color: rgb(0, 0, 0);
+}
+
+.thirdColumn {
+    position:absolute;
+    left: 450px;
+    width: 180px;
 }
 
 .headLineHome{
@@ -40,13 +51,9 @@ html {
     margin-right:auto;
 }
 
-
-
 .red {
     color: rgb(136, 0, 21);
 }
-
-
 
 nav ul{
     width:12em;
