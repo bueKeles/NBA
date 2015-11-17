@@ -1,7 +1,9 @@
 
 html {
     background-color: RGB(153,217,234) ;
-    border-left: 160px solid rgb(0,162,232);
+    border-left: 20pt;
+    border-left-color: rgb(0,162,232);
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     border-right: 160px solid rgb(0,162,232);
@@ -83,8 +85,8 @@ nav a:focus,a:hover {
 .lastline{
     position: relative;
     width: 250px;
-    text-align: center;
-    top: 380px;
+
+    top: 300px;
     right: 50%;
     left: 50%;
     border: 2px solid rgb(63,72,204);
