@@ -23,37 +23,39 @@
 
     <div class="firstColumn">
 
-<p> Name            <input type="text" id="name" name="name"></form></p>
-<p> Vorname         <input type="text" id="vorname" name="vorname"></form></p>
-<p> Verein          <input type="text" id="verein" name="verein"></form></p>
-<p> Coach           <input type="text" id="hcoach" name="hcoach"></form></p>
-<p> Assistant Coach <input type="text" id="acoach" name="acoach"></form></p>
+<p> Name            <input class= "secondColumn" type="text" id="name" name="name"/>
+<label class="fourthColumn">
+    Favorit markieren<input type="checkbox" id="favorit" name="favorit"/>
+</label> </p>
+<p> Vorname         <input class= "secondColumn" type="text" id="vorname" name="vorname"/></p>
+<p> Verein          <input class= "secondColumn" type="text" id="verein" name="verein"/></p>
+<p> Coach           <input class= "secondColumn" type="text" id="hcoach" name="hcoach"/></p>
+<p> Assistant Coach <input class= "secondColumn" type="text" id="acoach" name="acoach"/></p>
 
-<p> Trikotnummer    <input type="number" id="number" name="number"></form></p>
-<p> Jahrgang        <input type="number" id="jahr" name="jahr"></form></p>
+<p> Trikotnummer    <input class= "secondColumn" type="number" id="number" name="number"/></p>
+<p> Jahrgang        <input class= "secondColumn" type="number" id="jahr" name="jahr"/></p>
 
 
-Position<br>
-<select name="position" size="1">
-<option value="center">Center</option>
+<p>Position         <select class= "secondColumn" name="position" size="1">
+    <option value="center">Center</option>
     <option value="guard">Guard</option>
     <option value="power forward">Power Forward</option>
     <option value="wing" selected="selected">Wing</option>
     <option value="small forward" >Small Forward</option>
-</select></br>
-
-<div class="checkboxLeft">
-    Aktiv <p> <input type="checkbox" id="ja" name="ja">Ja
-    <input type="checkbox" id="nein" name="nein" checked="checked">Nein </p>
-</div>
-
-</div>
+</select>
+</p>
 
 
-<div class="secondColumn">
-    <p> Favorit markieren<input type="checkbox" id="favorit" name="favorit"></form></p>
-</div>
+<p>Aktiv
+    <label class = "secondColumn">
+        <input type="checkbox" name="ja" id="ja">Ja
+    </label>
 
+    <label class= "thirdColumn">
+        <input  type="checkbox" id="nein" name="nein" checked="checked"/> Nein
+    </label>
+</p>
+    </div>
 <div>
     <p> <input class="lastline" type="submit" value="Absenden"></p>
 </div>
