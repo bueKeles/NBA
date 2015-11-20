@@ -14,51 +14,53 @@
 
 <form action="http://martinakraus.net/createPlayer.php" method="get">
 
+    <div class="middleBox">
+        <div class="headLine">
+            <h1>Spieler anlegen</h1>
+        </div>
+        <a href="home.html">Zurück</a>
 
-    <div class="headLine">
 
-        <h1>Spieler anlegen</h1>
+        <p> Name <input class= "secondColumn" type="text" id="name" name="name"/>
 
+            <label class="fourthColumn">
+
+                Favorit markieren
+
+                <p><input class="fourthColumn" type="checkbox" id="favorit" name="favorit"/></p>
+
+            </label>
+
+        </p>
+        <p> Vorname         <input class= "secondColumn" type="text" id="vorname" name="vorname"/></p>
+        <p> Verein          <input class= "secondColumn" type="text" id="verein" name="verein"/></p>
+        <p> Coach           <input class= "secondColumn" type="text" id="hcoach" name="hcoach"/></p>
+        <p> Assistant Coach <input class= "secondColumn" type="text" id="acoach" name="acoach"/></p>
+        <p> Trikotnummer    <input class= "secondColumn" type="number" id="number" name="number"/></p>
+        <p> Jahrgang        <input class= "secondColumn" type="number" id="jahr" name="jahr"/></p>
+        <p>Position         <select class= "secondColumn" name="position" size="1">
+            <option value="center">Center</option>
+            <option value="guard">Guard</option>
+            <option value="power forward">Power Forward</option>
+            <option value="wing" selected="selected">Wing</option>
+            <option value="small forward" >Small Forward</option>
+        </select>
+        </p>
+
+        <p>Aktiv
+            <label class = "secondColumn">
+                <input type="checkbox" name="ja" id="ja">Ja
+            </label>
+
+            <label class= "thirdColumn">
+                <input  type="checkbox" id="nein" name="nein" checked="checked"/> Nein
+            </label>
+        </p>
+        <div>
+            <p> <input class="secondColumn" type="submit" value="Absenden"></p>
+
+        </div>
     </div>
-
-    <div class="firstColumn">
-
-<p> Name            <input class= "secondColumn" type="text" id="name" name="name"/>
-<label class="fourthColumn">
-    Favorit markieren<input type="checkbox" id="favorit" name="favorit"/>
-</label> </p>
-<p> Vorname         <input class= "secondColumn" type="text" id="vorname" name="vorname"/></p>
-<p> Verein          <input class= "secondColumn" type="text" id="verein" name="verein"/></p>
-<p> Coach           <input class= "secondColumn" type="text" id="hcoach" name="hcoach"/></p>
-<p> Assistant Coach <input class= "secondColumn" type="text" id="acoach" name="acoach"/></p>
-
-<p> Trikotnummer    <input class= "secondColumn" type="number" id="number" name="number"/></p>
-<p> Jahrgang        <input class= "secondColumn" type="number" id="jahr" name="jahr"/></p>
-
-
-<p>Position         <select class= "secondColumn" name="position" size="1">
-    <option value="center">Center</option>
-    <option value="guard">Guard</option>
-    <option value="power forward">Power Forward</option>
-    <option value="wing" selected="selected">Wing</option>
-    <option value="small forward" >Small Forward</option>
-</select>
-</p>
-
-
-<p>Aktiv
-    <label class = "secondColumn">
-        <input type="checkbox" name="ja" id="ja">Ja
-    </label>
-
-    <label class= "thirdColumn">
-        <input  type="checkbox" id="nein" name="nein" checked="checked"/> Nein
-    </label>
-</p>
-    </div>
-<div>
-    <p> <input class="lastline" type="submit" value="Absenden"></p>
-</div>
 
 </form>
 </body>
