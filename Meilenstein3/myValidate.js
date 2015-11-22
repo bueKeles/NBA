@@ -2,7 +2,7 @@
  * Created by nurcan_oez on 20.11.15.
  */
 var regexAlpha = /^([a-zA-ZäöüÄÖÜß]+[\s]+)*[a-zA-ZäöüÄÖÜß]+$/;
-var regexNumber = /^\d [4-9]||[1][0-5]+$/;
+var regexNumber = /[4-9]/g;
 var regexYear = /^\d{4}$/;
 var wrongElem = undefined;
 

@@ -6,15 +6,15 @@
 
 
     <link rel="stylesheet" type="text/css" href="home.css">
-    <script type="text/javascript" src="../Meilenstein 3/myValidate.js"></script>
-    <script type="text/javascript" src="../Meilenstein 3/checkInput.js"></script>
+    <script type="text/javascript" src="../Meilenstein3/myValidate.js"></script>
+    <script type="text/javascript" src="../Meilenstein3/checkInput.js"></script>
 </head>
 
 <body>
 
 <form name="PlayerFormular" onsubmit="return checkPlayer()" action="http://martinakraus.net/createPlayer.php" method="get">
 
-    <div class="middleBox">
+    <div class="middleBox paddingField">
         <div class="headLine">
             <h1>Spieler anlegen</h1>
         </div>
@@ -24,11 +24,8 @@
         <p> Name <input class= "secondColumn" type="text" id="name" name="name"/>
 
             <label class="fourthColumn">
-
                 Favorit markieren
-
                 <p><input class="fourthColumn" type="checkbox" id="favorit" name="favorit"/></p>
-
             </label>
 
         </p>
