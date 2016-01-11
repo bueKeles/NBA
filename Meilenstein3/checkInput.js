@@ -35,7 +35,7 @@ function allowAlphabet(elem) {
 
 //rückennummer
 function allowNumber(elem){
-    var regex = /^[4-9]$|^1[0-5]$/g;
+    var regex = /[4-9]|[1][0-5]/g;
 
     //check if its not empty
     if (isEmpty(elem)) {
