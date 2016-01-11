@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spieler anlegen</title>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <script type="text/javascript" src="../js/savePlayer.js"></script>
+</head>
+<body>
+<form name="PlayerFormular" action="http://localhost:8888/Player" method="get">
+    <div class="middleBox paddingField">
+        <div class="headLine">
+            <h1>Spieler anlegen</h1>
+        </div>
+        <a href="home.html">Zurück</a>
+        <p> Name <input class= "secondColumn" type="text" id="name" name="name"/>
+
+            <label class="fourthColumn">
+                Favorit markieren
+                <p><input class="fourthColumn" type="checkbox" id="favorit" name="favorit"/></p>
+            </label>
+        </p>
+        <p> Vorname         <input class= "secondColumn" type="text" id="vorname" name="vorname"/></p>
+        <p> Verein          <input class= "secondColumn" type="text" id="verein" name="verein"/></p>
+        <p> Coach           <input class= "secondColumn" type="text" id="hcoach" name="hcoach"/></p>
+        <p> Assistant Coach <input class= "secondColumn" type="text" id="acoach" name="acoach"/></p>
+        <p> Trikotnummer    <input class= "secondColumn" type="number" id="number" name="number"/></p>
+        <p> Jahrgang        <input class= "secondColumn" type="number" id="jahr" name="jahr"/></p>
+        <p>Position         <select class= "secondColumn" name="position" size="1">
+            <option value="center">Center</option>
+            <option value="guard">Guard</option>
+            <option value="power forward">Power Forward</option>
+            <option value="wing" selected="selected">Wing</option>
+            <option value="small forward" >Small Forward</option>
+        </select>
+        </p>
+        <p>Aktiv
+            <label class = "secondColumn">
+                <input type="checkbox" name="ja" id="ja">Ja
+            </label>
+            <label class= "thirdColumn">
+                <input  type="checkbox" id="nein" name="nein" checked="checked"/> Nein
+            </label>
+        </p>
+        <div>
+            <p> <input class="secondColumn" type="button" value="Absenden" onclick="savePlayer()"></p>
+        </div>
+    </div>
+</form>
+</body>
+</html>

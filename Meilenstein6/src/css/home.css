@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(0, 162, 232);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+html {
+    background-color: rgb(0,162,232);
+
+}
+table , th, tr{
+    border: 1px solid black;
+}
+.paddingField{
+    padding-left: 5%;
+}
+
+.middleBox{
+
+    background-color: rgb(153, 217, 234);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.centerBox{
+    text-align: center;
+}
+
+.headLine {
+    font-size:24px;
+    text-align:center;
+    color:rgb(75,47,37);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.secondColumn {
+    position:absolute;
+    left: 35%;
+    width: 180px;
+}
+
+.fourthColumn{
+    position:absolute;
+ left: 60%;
+}
+
+.thirdColumn {
+    position:absolute;
+    left: 45%;
+    width: 180px;
+}
+
+.headLineHome{
+    font-size:22px;
+    text-align:center;
+    color:rgb(0,0,0);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.red {
+    color: rgb(136, 0, 21);
+}
+
+nav ul{
+    width:12em;
+    margin-left:auto;
+    margin-right: auto;
+}
+nav li{
+    list-style:none;
+    text-align:center;
+}
+
+nav a{
+    background-color:rgb(0,162,232);
+    color:rgb(0,0,0);
+    border: 10px solid rgb(63,72,204);
+    padding:1em;
+    font-size:18px;
+    display: block;
+    text-decoration:none;
+
+}
+
+nav a:focus,a:hover {
+    background-color:rgb(63,72,204);
+}
+
+.lastline{
+    margin-left: 40%;
+    text-align: center;
+    border: 5px solid rgb(63,72,204);
+    width: 20%;
+    background-color: rgb(0,162,232);
+}
+
+.select{
+    color: white;
+    background-color: rgb(0,38,255);
+    border-color: black;
+}
+
+.tableborder{
+    display: block;
+    text-align: center;
+    border-collapse: separate;
+    border: solid 1px;
+    font-size: 20px;
+    float: left;
+    width: 47.7%;
+}
